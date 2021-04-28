@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './style.scss'
 
-class OrderBookData extends Component {
+class TransferEvents extends Component {
   state = {
       data: [],
       count:100
@@ -93,4 +93,4 @@ class OrderBookData extends Component {
   }
 }
 
-export default OrderBookData;
+export default TransferEvents;

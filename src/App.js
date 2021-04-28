@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import OrderBookData from "./modules/order-boock-data";
+import TransferEvents from "./modules/transfer-events";
 
 class App extends Component {
 
   render() {
     return (
-        <OrderBookData/>
+        <TransferEvents/>
     )
   }
 }
